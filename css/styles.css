@@ -24,3 +24,8 @@
 body {
   background-color: honeydew;
 }
+
+#col-1{
+  position: relative;
+  width: 50%;
+}
