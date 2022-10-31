@@ -48,3 +48,8 @@ h2 {
   color: #8a0065;
   text-align: center;
 }
+
+img{
+  display: block;
+  margin: auto;
+}
