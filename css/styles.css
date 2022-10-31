@@ -25,26 +25,25 @@ body {
   background-color: #fff0fb;
 }
 
-#col-1 {
+#col-1{
   position: relative;
   width: 50%;
   height: 100%;
   float: right;
 }
 
-#col-1 {
+#col-2{
   position: relative;
   width: 50%;
   height: 100%;
   float: left;
 }
 
-h4 {
-  color: #3e008a;
+h4{
+  color: #8a0065;
 }
 
-h3,
-h2 {
-  color: #3e008a;
+h3,h2{
+  color: #8a0065;
   text-align: center;
 }
