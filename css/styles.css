@@ -29,14 +29,14 @@ body {
   position: relative;
   width: 50%;
   height: 100%;
-  float: right;
+  float: left;
 }
 
 #col-2{
   position: relative;
   width: 50%;
   height: 100%;
-  float: left;
+  float: right;
 }
 
 h4{
