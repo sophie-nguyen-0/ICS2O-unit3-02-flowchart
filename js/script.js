@@ -17,5 +17,14 @@ if (navigator.serviceWorker) {
  * this function
  */
 function myButtonClicked() {
-  document.getElementById("hello-world").innerHTML = "<p>Hello, World!</p>"
+   // input
+  const length = parseInt(document.getElementById('length').value)
+  const width = parseInt(document.getElementById('width').value)
+  const height = parseInt(document.getElementById('height').value)
+
+  // process
+  const volume = (length * width * height) / 3
+
+  // output
+  document.getElementById('volume').innerHTML = 'volume is: ' + volume + ' cm'
 }
