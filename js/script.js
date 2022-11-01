@@ -27,5 +27,5 @@ function myButtonClicked() {
 
   // output
   document.getElementById("volume").innerHTML =
-    "volume is: " + volume.toFixed(2) + " cm³"
+    "volume is: " + volume + " cm³"
 }
