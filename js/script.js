@@ -26,5 +26,6 @@ function myButtonClicked() {
   const volume = (length * width * height) / 3
 
   // output
-  document.getElementById("volume").innerHTML = "volume is: " + volume.toFixed(2) + " cm"
+  document.getElementById("volume").innerHTML =
+    "volume is: " + volume.toFixed(2) + " cm"
 }
